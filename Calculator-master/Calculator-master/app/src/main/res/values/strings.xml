@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="number_zero">0</string>
+    <string name="number_one">1</string>
+    <string name="number_two">2</string>
+    <string name="number_three">3</string>
+    <string name="number_four">4</string>
+    <string name="number_five">5</string>
+    <string name="number_six">6</string>
+    <string name="number_seven">7</string>
+    <string name="number_eight">8</string>
+    <string name="number_nine">9</string>
+    
+    <string name="operation_sign">+/-</string>
+    <string name="operation_decimal_point">.</string>
+
+    <string name="operation_plus">+</string>
+    <string name="operation_minus">-</string>
+    <string name="operation_time">*</string>
+    <string name="operation_divide">/</string>
+
+    <string name="operation_ce">ce</string>
+    <string name="operation_del">del</string>
+    <string name="operation_answer">=</string>
+    <string name="operation_exit">off</string>
+
+</resources>

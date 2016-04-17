@@ -1,0 +1,56 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="textview_screen" parent="@android:style/Widget.TextView">
+        <!-- Customize your theme here. -->
+        <item name="android:textSize">35sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#000</item>
+    </style>
+
+    <style name="button_game" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/button_game</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FFF</item>
+        <item name="android:gravity">center_horizontal|center_vertical</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+    </style>
+
+    <style name="button_game2" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/button_game2</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FFF</item>
+        <item name="android:gravity">center_horizontal|center_vertical</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+    </style>
+    <style name="button_game3" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/button_game3</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FFF</item>
+        <item name="android:gravity">center_horizontal|center_vertical</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+    </style>
+    <style name="button_game4" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/button_game4</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FFF</item>
+        <item name="android:gravity">center_horizontal|center_vertical</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+    </style>
+
+</resources>

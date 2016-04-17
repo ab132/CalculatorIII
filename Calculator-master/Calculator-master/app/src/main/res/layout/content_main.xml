@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_bottom_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_top_margin">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/textViewScreen"
+            style="@style/textview_screen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:paddingRight="@dimen/activity_horizontal_margin" />
+    </RelativeLayout>
+
+    <android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/button00"
+            style="@style/button_game"
+            android:onClick="numberClicked"
+            android:tag="7"
+            android:text="@string/number_seven"
+            app:layout_heightPercent="25%"
+            app:layout_widthPercent="20%" />
+
+        <Button
+            android:id="@+id/button01"
+            style="@style/button_game"
+            android:layout_alignTop="@id/button00"
+            android:layout_toRightOf="@id/button00"
+            android:onClick="numberClicked"
+            android:tag="8"
+            android:text="@string/number_eight"
+            app:layout_heightPercent="25%"
+            app:layout_widthPercent="20%" />
+
+        <Button
+            android:id="@+id/button02"
+            style="@style/button_game"
+            android:layout_alignTop="@id/button01"
+            android:layout_toRightOf="@id/button01"
+            android:onClick="numberClicked"
+            android:tag="9"
+            android:text="@string/number_nine"
+            app:layout_heightPercent="25%"
+            app:layout_widthPercent="20%" />
+
+        <Button
+            android:id="@+id/button03"
+            style="@style/button_game3"
+            android:layout_alignTop="@id/button02"
+            android:layout_toRightOf="@id/button02"
+            android:onClick="operatorClicked"
+            android:tag="+"
+            android:text="@string/operation_plus"
+            app:layout_heightPercent="25%"
+            app:layout_widthPercent="20%" />
+        <Button
+            android:id="@+id/button04"
+            style="@style/button_game2"
+            android:layout_alignTop="@id/button03"
+            android:layout_toRightOf="@id/button03"
+            android:onClick="ceButtonClicked"
+            android:text="@string/operation_ce"
+            app:layout_heightPercent="25%"
+            app:layout_widthPercent="20%" />
+
+        <Button
+            android:id="@+id/button10"
+            style="@style/button_game"
+            android:layout_below="@id/button00"
+            android:onClick="numberClicked"
+            android:tag="4"
+            android:text="@string/number_four"
+            app:layout_heightPercent="25%"
+            app:layout_widthPercent="20%" />
+
+        <Button
+            android:id="@+id/button11"
+            style="@style/button_game"
+            android:layout_alignTop="@id/button10"
+            android:layout_toRightOf="@id/button10"
+            android:onClick="numberClicked"
+            android:tag="5"
+            android:text="@string/number_five"
+            app:layout_heightPercent="25%"
+            app:layout_widthPercent="20%" />
+
+        <Button
+            android:id="@+id/button12"
+            style="@style/button_game"
+            android:layout_alignTop="@id/button11"
+            android:layout_toRightOf="@id/button11"
+            android:onClick="numberClicked"
+            android:tag="6"
+            android:text="@string/number_six"
+            app:layout_heightPercent="25%"
+            app:layout_widthPercent="20%" />
+
+        <Button
+            android:id="@+id/button13"
+            style="@style/button_game3"
+            android:layout_alignTop="@id/button12"
+            android:layout_toRightOf="@id/button12"
+            android:onClick="operatorClicked"
+            android:tag="-"
+            android:text="@string/operation_minus"
+            app:layout_heightPercent="25%"
+            app:layout_widthPercent="20%" />
+        <Button
+            android:id="@+id/button14"
+            style="@style/button_game2"
+            android:layout_alignTop="@id/button13"
+            android:layout_toRightOf="@id/button13"
+            android:onClick="delClicked"
+            android:text="@string/operation_del"
+            app:layout_heightPercent="25%"
+            app:layout_widthPercent="20%" />
+
+        <Button
+            android:id="@+id/button20"
+            style="@style/button_game"
+            android:layout_below="@id/button10"
+            android:onClick="numberClicked"
+            android:tag="1"
+            android:text="@string/number_one"
+            app:layout_heightPercent="25%"
+            app:layout_widthPercent="20%" />
+
+        <Button
+            android:id="@+id/button21"
+            style="@style/button_game"
+            android:layout_alignTop="@id/button20"
+            android:layout_toRightOf="@id/button20"
+            android:onClick="numberClicked"
+            android:tag="2"
+            android:text="@string/number_two"
+            app:layout_heightPercent="25%"
+            app:layout_widthPercent="20%" />
+
+        <Button
+            android:id="@+id/button22"
+            style="@style/button_game"
+            android:layout_alignTop="@id/button21"
+            android:layout_toRightOf="@id/button21"
+            android:onClick="numberClicked"
+            android:tag="3"
+            android:text="@string/number_three"
+            app:layout_heightPercent="25%"
+            app:layout_widthPercent="20%" />
+
+        <Button
+            android:id="@+id/button23"
+            style="@style/button_game3"
+            android:layout_alignTop="@id/button22"
+            android:layout_toRightOf="@id/button22"
+            android:onClick="operatorClicked"
+            android:tag="*"
+            android:text="@string/operation_time"
+            app:layout_heightPercent="25%"
+            app:layout_widthPercent="20%" />
+        <Button
+            android:id="@+id/button24"
+            style="@style/button_game2"
+            android:layout_alignTop="@id/button23"
+            android:layout_toRightOf="@id/button23"
+            android:onClick="operatorClicked"
+            android:tag="="
+            android:text="@string/operation_answer"
+            app:layout_heightPercent="25%"
+            app:layout_widthPercent="20%" />
+
+
+
+        <Button
+            android:id="@+id/button30"
+            style="@style/button_game4"
+            android:layout_below="@id/button20"
+            android:layout_toRightOf="@id/button30"
+            android:onClick="numberClicked"
+            android:tag="."
+            android:text="@string/operation_decimal_point"
+            app:layout_heightPercent="25%"
+            app:layout_widthPercent="20%" />
+
+        <Button
+            android:id="@+id/button31"
+            style="@style/button_game4"
+            android:layout_alignTop="@id/button30"
+            android:layout_toRightOf="@id/button30"
+            android:onClick="numberClicked"
+            android:tag="0"
+            android:text="@string/number_zero"
+            app:layout_heightPercent="25%"
+            app:layout_widthPercent="20%" />
+
+        <Button
+            android:id="@+id/button32"
+            style="@style/button_game4"
+            android:layout_alignTop="@id/button31"
+            android:layout_toRightOf="@id/button31"
+            android:onClick="signButtonClicked"
+            android:text="@string/operation_sign"
+            app:layout_heightPercent="25%"
+            app:layout_widthPercent="20%" />
+
+        <Button
+            android:id="@+id/button33"
+            style="@style/button_game3"
+            android:layout_alignTop="@id/button32"
+            android:layout_toRightOf="@id/button32"
+            android:onClick="operatorClicked"
+            android:tag="/"
+            android:text="@string/operation_divide"
+            app:layout_heightPercent="25%"
+            app:layout_widthPercent="20%" />
+        <Button
+            android:id="@+id/button34"
+            style="@style/button_game2"
+            android:layout_alignTop="@id/button33"
+            android:layout_toRightOf="@id/button33"
+            android:onClick="exitButtonClicked"
+            android:text="@string/operation_exit"
+            app:layout_heightPercent="25%"
+            app:layout_widthPercent="20%" />
+    </android.support.percent.PercentRelativeLayout>
+</LinearLayout>

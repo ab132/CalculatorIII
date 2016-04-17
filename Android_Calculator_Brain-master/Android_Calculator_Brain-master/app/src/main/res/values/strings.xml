@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Calculator_Brain</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_show_history">Näita ajalugu</string>
+    <string name="action_show_daysstats">Näita päevastatistikat</string>
+    <string name="action_show_operandstats">Näita tehtestatistkat</string>
+</resources>
